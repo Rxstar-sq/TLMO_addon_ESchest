@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.sh1rocu.touhoulittlemaidaddon.eschest.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "cn.sh1rocu.touhoulittlemaidaddon.eschest.util.MixinPlugin",
+  "mixins": [
+    "compat.expandedstorage.ChestManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
