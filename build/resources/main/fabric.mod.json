@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "touhou_little_maid_addon_eschest",
+  "version": "0.1.0+mc1.21.1",
+  "name": "Touhou Little Maid Addon: EStorage Chest",
+  "description": "Standalone ExpandedStorage compat addon for Touhou Little Maid",
+  "authors": [
+    "Sh1roCu"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.sh1rocu.touhoulittlemaidaddon.eschest.TouhouLittleMaidAddonESChest"
+    ]
+  },
+  "mixins": [
+    "touhou_little_maid_addon_eschest.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.21.1",
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "touhou_little_maid": ">=0.7.0"
+  },
+  "suggests": {
+    "expandedstorage": "*"
+  }
+}
